@@ -1,5 +1,5 @@
 name = input('Naam: ')
-address = input('Adres + huisnummer: ')
+address = input('Adres: ')
 postcode = input('Postcode: ')
 woonplaats = input('Woonplaats: ')
 
