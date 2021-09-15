@@ -2,13 +2,13 @@ croissant = 0.39
 stokbrood = 2.78
 korting = 0.50
 
-aantalCroissant = float(input('Croissant aantal: '))
-aantalStokbrook = float(input('Stokbrood aantal: '))
-aantalKorting = float(input ('Kortingsbonnen aantal: '))
+aantalCroissant = int(input('Croissant aantal: '))
+aantalStokbrook = int(input('Stokbrood aantal: '))
+aantalKorting = int(input ('Kortingsbonnen aantal: '))
 
-croissants = croissant * aantalCroissant
-stokbroden = stokbrood * aantalStokbrook
-kortingen = korting * aantalKorting
-receipt = croissants + stokbroden - kortingen
+croissants = float(croissant * aantalCroissant)
+stokbroden = float(stokbrood * aantalStokbrook)
+kortingen = float(korting * aantalKorting)
+receipt = float(croissants + stokbroden - kortingen)
 
 print(str(receipt) + ' euro')
