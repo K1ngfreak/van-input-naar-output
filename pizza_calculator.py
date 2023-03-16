@@ -2,9 +2,9 @@
 # pizza calculator
 
 print('Size:')
-print('Small:   10 - 20cm - 6.99')
-print('Medium:  20 - 30cm - 11.99')
-print('Large:   30 - 40cm - 17.99')
+print('Small:   10 - 20cm - €6.99')
+print('Medium:  20 - 30cm - €11.99')
+print('Large:   30 - 40cm - €17.99')
 
 price_small = 6.99
 price_medium = 11.99
